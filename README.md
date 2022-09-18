@@ -1,4 +1,4 @@
-# fuse4j
+# macfuse4j
 Java library with JNI native library bindings for macFUSE https://osxfuse.github.io
 ## How to build
 ### JNI library (libmacfuse4j.dylib)
