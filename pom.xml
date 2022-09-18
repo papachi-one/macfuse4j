@@ -6,12 +6,19 @@
 
     <groupId>one.papachi</groupId>
     <artifactId>macfuse4j</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/papachi-one/macfuse4j</url>
+        </repository>
+    </distributionManagement>
 
 </project>
