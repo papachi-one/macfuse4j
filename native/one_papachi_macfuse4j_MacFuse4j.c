@@ -5,6 +5,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define FUSE_USE_VERSION 29
+
 static JavaVM *jvm;
 
 static int macfuse4j_getattr(const char *path, struct stat *stbuf) {
