@@ -4,6 +4,8 @@ Java library with JNI native library bindings for macFUSE https://osxfuse.github
 ### JNI library (libmacfuse4j.dylib)
 - Install CMake
     - You can download it from [here](https://cmake.org/download/)
+- Install Xcode
+    - You can download it from [here](https://developer.apple.com/xcode/)
 - Install macFUSE
     - You can download it from [here](https://osxfuse.github.io)
 - Open command prompt in the project directory and run the following commands:
